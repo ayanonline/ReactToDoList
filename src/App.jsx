@@ -8,9 +8,10 @@ function App() {
   const [lists, setLists] = useState([]);
   //Add item
   function addItem(newInput) {
-    setLists((prevValue) => {
-      return [...prevValue, newInput];
-    });
+    newInput &&
+      setLists((prevValue) => {
+        return [...prevValue, newInput];
+      });
   }
 
   //Delete item
