@@ -1,4 +1,7 @@
 This is a simple to-do app made by me 😅
+
+You can check the app open [https://ayan-todo-list.netlify.app/]
+
 happy hacking bro😎
 
 ### `npm run dev`
